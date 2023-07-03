@@ -769,6 +769,9 @@ body {
   -webkit-transform: translate(0, -70px);
       -ms-transform: translate(0, -70px);
           transform: translate(0, -70px);
+}
+
+.footer__social-item:nth-child(1) {
   -webkit-transition: background-color 0.4s ease 0s, opacity 0.8s ease 0s, -webkit-transform 0.8s ease 0s;
   transition: background-color 0.4s ease 0s, opacity 0.8s ease 0s, -webkit-transform 0.8s ease 0s;
   -o-transition: background-color 0.4s ease 0s, transform 0.8s ease 0s, opacity 0.8s ease 0s;
@@ -776,28 +779,28 @@ body {
   transition: background-color 0.4s ease 0s, transform 0.8s ease 0s, opacity 0.8s ease 0s, -webkit-transform 0.8s ease 0s;
 }
 
-.footer__social-item:nth-child(1) {
-  -webkit-transition: all 0.8s ease 0s;
-  -o-transition: all 0.8s ease 0s;
-  transition: all 0.8s ease 0s;
-}
-
 .footer__social-item:nth-child(2) {
-  -webkit-transition: all 0.8s ease 0.1s;
-  -o-transition: all 0.8s ease 0.1s;
-  transition: all 0.8s ease 0.1s;
+  -webkit-transition: background-color 0.4s ease 0s, opacity 0.8s ease 0.1s, -webkit-transform 0.8s ease 0.1s;
+  transition: background-color 0.4s ease 0s, opacity 0.8s ease 0.1s, -webkit-transform 0.8s ease 0.1s;
+  -o-transition: background-color 0.4s ease 0s, transform 0.8s ease 0.1s, opacity 0.8s ease 0.1s;
+  transition: background-color 0.4s ease 0s, transform 0.8s ease 0.1s, opacity 0.8s ease 0.1s;
+  transition: background-color 0.4s ease 0s, transform 0.8s ease 0.1s, opacity 0.8s ease 0.1s, -webkit-transform 0.8s ease 0.1s;
 }
 
 .footer__social-item:nth-child(3) {
-  -webkit-transition: all 0.8s ease 0.2s;
-  -o-transition: all 0.8s ease 0.2s;
-  transition: all 0.8s ease 0.2s;
+  -webkit-transition: background-color 0.4s ease 0s, opacity 0.8s ease 0.2s, -webkit-transform 0.8s ease 0.2s;
+  transition: background-color 0.4s ease 0s, opacity 0.8s ease 0.2s, -webkit-transform 0.8s ease 0.2s;
+  -o-transition: background-color 0.4s ease 0s, transform 0.8s ease 0.2s, opacity 0.8s ease 0.2s;
+  transition: background-color 0.4s ease 0s, transform 0.8s ease 0.2s, opacity 0.8s ease 0.2s;
+  transition: background-color 0.4s ease 0s, transform 0.8s ease 0.2s, opacity 0.8s ease 0.2s, -webkit-transform 0.8s ease 0.2s;
 }
 
 .footer__social-item:nth-child(4) {
-  -webkit-transition: all 0.8s ease 0.3s;
-  -o-transition: all 0.8s ease 0.3s;
-  transition: all 0.8s ease 0.3s;
+  -webkit-transition: background-color 0.4s ease 0s, opacity 0.8s ease 0.3s, -webkit-transform 0.8s ease 0.3s;
+  transition: background-color 0.4s ease 0s, opacity 0.8s ease 0.3s, -webkit-transform 0.8s ease 0.3s;
+  -o-transition: background-color 0.4s ease 0s, transform 0.8s ease 0.3s, opacity 0.8s ease 0.3s;
+  transition: background-color 0.4s ease 0s, transform 0.8s ease 0.3s, opacity 0.8s ease 0.3s;
+  transition: background-color 0.4s ease 0s, transform 0.8s ease 0.3s, opacity 0.8s ease 0.3s, -webkit-transform 0.8s ease 0.3s;
 }
 
 ._watcher-view .footer__social-item {
