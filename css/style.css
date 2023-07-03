@@ -1411,7 +1411,7 @@ body {
 }
 
 .no-webp .presentation-section__slide{
-  background: url(../img/presentation/backgroundFull.png) center center/100% 100% no-repeat, url(../img/presentation/background.png) top 0 right 0/270px 405px no-repeat; }
+  background: url(../img/presentation/background.png) top 0 right 0/270px 405px no-repeat, url(../img/presentation/backgroundFull.png), rgba(255, 255, 255, 0.1) 0% 0%/142.0000076294px 142.0000076294px repeat; }
 
 .presentation-section__slide {
   display: -webkit-box;
@@ -1427,7 +1427,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .presentation-section__title {
@@ -4660,7 +4659,7 @@ body {
 
 .webp .dashboard-section__background{ background: url(../img/dashboard/backgroundDashboard.webp) left 0 bottom 0/100% 100% no-repeat; }
 
-.webp .presentation-section__slide{ background: url(../img/presentation/backgroundFull.webp) center center/100% 100% no-repeat, url(../img/presentation/background.webp) top 0 right 0/270px 405px no-repeat; }
+.webp .presentation-section__slide{ background: url(../img/presentation/background.webp) top 0 right 0/270px 405px no-repeat, url(../img/presentation/backgroundFull.webp), rgba(255, 255, 255, 0.1) 0% 0%/142.0000076294px 142.0000076294px repeat; }
 
 .webp .graph__months-progres{ background: url(../img/quickit/zone.webp) center bottom 24px/100% 128px no-repeat; }
 
