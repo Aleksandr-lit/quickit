@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230703131151">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230812213632">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -165,26 +165,40 @@
 					<h4 data-watch class="benefits-section__sub-title sub-title title">key benefits</h4>
 					<h3 data-watch class="benefits-section__title title">Your business will reach <span>unprecedented
 							heights</span></h3>
-					<div class="benefits-section__content">
-						<div data-watch class="benefits-section__image">
-							<img data-prlx-mouse src="img/benefits/benefits.svg" alt="Image">
-						</div>
-						<div data-watch class="benefits-section__items">
-							<div class="benefits-section__item _active">
+					<div data-tabs class="tabs">
+						<nav data-watch data-tabs-titles class="tabs__navigation">
+							<button type="button" class="tabs__title _tab-active">
 								<div class="benefits-section__name">Be Organized</div>
 								<p class="benefits-section__text">Every team has a unique process for shipping software. Use an
 									out-of-the-box workflow, or create one to match the way your team works.</p>
-							</div>
-							<div class="benefits-section__item">
+							</button>
+							<button type="button" class="tabs__title">
 								<div class="benefits-section__name">Stay Focused</div>
 								<p class="benefits-section__text">Estimations help your team become more accurate and efficient.
 									Use story points, hours, t-shirt sizes, or your own estimation technique.</p>
-							</div>
-							<div class="benefits-section__item">
+							</button>
+							<button type="button" class="tabs__title">
 								<div class="benefits-section__name">Get in Sync</div>
 								<p class="benefits-section__text">Order user stories, issues, and bugs in your product backlog
 									with simple drag and drop prioritization. Ensure stories that deliver the most customer
 									value.</p>
+							</button>
+						</nav>
+						<div data-tabs-body class="tabs__content">
+							<div class="tabs__body">
+								<div data-watch class="benefits-section__image">
+									<img data-prlx-mouse src="img/benefits/benefits.svg" alt="Image">
+								</div>
+							</div>
+							<div class="tabs__body">
+								<div data-watch class="benefits-section__image">
+									<img data-prlx-mouse src="img/benefits/benefits.svg" alt="Image">
+								</div>
+							</div>
+							<div class="tabs__body">
+								<div data-watch class="benefits-section__image">
+									<img data-prlx-mouse src="img/benefits/benefits.svg" alt="Image">
+								</div>
 							</div>
 						</div>
 					</div>
@@ -752,7 +766,7 @@
 
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20230703131151"></script>
+	<script src="js/app.min.js?_v=20230812213632"></script>
 </body>
 
 </html>
